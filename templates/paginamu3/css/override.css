@@ -1,0 +1,86 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: none !important;
+}
+
+a:focus, a:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.form-control {
+	background: #111;
+	border: 1px solid #705954;
+	color: #ccc;
+}
+.form-control:focus {
+	border: 1px solid #9c7b74;
+}
+
+/* http://stackoverflow.com/questions/19562903/remove-padding-from-columns-in-bootstrap-3 */
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/* http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.thumbnail {
+    background-color: #111111;
+    border: 1px solid #333333;
+	transition: all 0.3s ease;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+	border-color: #c35b43;
+	-moz-box-shadow: 0 0 60px rgba(195, 91, 67, 0.3);
+	-webkit-box-shadow: 0 0 60px rgba(195, 91, 67, 0.3);
+	box-shadow: 0 0 60px rgba(195, 91, 67, 0.3);
+}
+
+.btn-primary {
+    color: #f5de9f;
+    /*background-color: transparent;*/
+	background-image: linear-gradient(to bottom, #256286, #0b979e);
+	border: 0px;
+	-moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    color: #fff !important;
+	background-image: linear-gradient(to bottom, #b93a27, #9e1e0b);
+}
+
+/* modal */
+.modal-content {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+	background-color: transparent !important;
+	border: 0 !important;
+}
+
+.table-bordered {
+	background: #2d211e !imporant;
+    border: 1px solid #18110f !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #342623 !important;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #543e3a !important;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #18110f !important;
+}
